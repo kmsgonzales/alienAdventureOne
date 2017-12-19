@@ -26,7 +26,7 @@ class SettingsViewController: UIViewController {
         super.viewDidLoad()
         
         let attributesDictionary: [String:AnyObject] = [
-            NSFontAttributeName: UIFont(name: Settings.Common.Font, size: 18)!
+            NSAttributedStringKey.font.rawValue: UIFont(name: Settings.Common.Font, size: 18)!
         ]
         
         titleLabel.font = UIFont(name: Settings.Common.Font, size: 32)
